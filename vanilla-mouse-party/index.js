@@ -35,7 +35,7 @@ function getRandomNumber(min, max) {
             mouseMoveEvent.target.remove()
         })
         contatiner.appendChild(ball)
-      }, 1000) }
+      }, 100) }
 
     window.addEventListener('mouseover', function(){
         drawId = draw() 
